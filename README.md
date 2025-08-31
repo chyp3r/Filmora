@@ -43,12 +43,13 @@ Filmora, **TMDB API** ve **Gemini API** kullanarak filmleri keşfetmenizi ve fil
 
 ## Fotoğraflar
 
-![Ana Ekran Bölümü](Photos/1.png)  
-![Film Detay](Photos/2.png)  
-![Film Detay 2](Photos/3.png)  
-![Film Detay 3](Photos/4.png)  
-![Yapay Zeka Film Asistanı](Photos/5.png)  
-![Favori Filmler](Photos/6.png)  
-![Arama Ekranı](Photos/7.png)  
-![Oyuncu Detay](Photos/8.png)
+<img src="Photos/1.png" alt="Ana Ekran Bölümü" width="300"/><br>
+<img src="Photos/2.png" alt="Film Detay" width="300"/><br>
+<img src="Photos/3.png" alt="Film Detay 2" width="300"/><br>
+<img src="Photos/4.png" alt="Film Detay 3" width="300"/><br>
+<img src="Photos/5.png" alt="Yapay Zeka Film Asistanı" width="300"/><br>
+<img src="Photos/6.png" alt="Favori Filmler" width="300"/><br>
+<img src="Photos/7.png" alt="Arama Ekranı" width="300"/><br>
+<img src="Photos/8.png" alt="Oyuncu Detay" width="300"/>
+
 
