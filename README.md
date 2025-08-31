@@ -43,13 +43,22 @@ Filmora, **TMDB API** ve **Gemini API** kullanarak filmleri keşfetmenizi ve fil
 
 ## Fotoğraflar
 
-<img src="Photos/1.png" alt="Ana Ekran Bölümü" width="300"/><br>
-<img src="Photos/2.png" alt="Film Detay" width="300"/><br>
-<img src="Photos/3.png" alt="Film Detay 2" width="300"/><br>
-<img src="Photos/4.png" alt="Film Detay 3" width="300"/><br>
-<img src="Photos/5.png" alt="Yapay Zeka Film Asistanı" width="300"/><br>
-<img src="Photos/6.png" alt="Favori Filmler" width="300"/><br>
-<img src="Photos/7.png" alt="Arama Ekranı" width="300"/><br>
-<img src="Photos/8.png" alt="Oyuncu Detay" width="300"/>
+<img src="Photos/1.png" alt="Ana Ekran Bölümü" width="200" style="margin-right:10px;"/>
+<img src="Photos/2.png" alt="Film Detay" width="200"/>
+
+<br><br>
+
+<img src="Photos/3.png" alt="Film Detay 2" width="200" style="margin-right:10px;"/>
+<img src="Photos/4.png" alt="Film Detay 3" width="200"/>
+
+<br><br>
+
+<img src="Photos/5.png" alt="Yapay Zeka Film Asistanı" width="200" style="margin-right:10px;"/>
+<img src="Photos/6.png" alt="Favori Filmler" width="200"/>
+
+<br><br>
+
+<img src="Photos/7.png" alt="Arama Ekranı" width="200" style="margin-right:10px;"/>
+<img src="Photos/8.png" alt="Oyuncu Detay" width="200"/>
 
 
