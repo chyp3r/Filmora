@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="MovieHeaderCollectionViewCell" id="gTV-IL-0wX" customClass="MovieHeaderCollectionViewCell" customModule="MovieApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3jk-gy-5yx">
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MPr-Uc-UVB">
+                                <rect key="frame" x="0.0" y="0.0" width="500" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aAE-LW-zQH">
+                                        <rect key="frame" x="0.0" y="0.0" width="500" height="150"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="239" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cty-3P-Bed">
+                                                <rect key="frame" x="16" y="0.0" width="468" height="150"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Cty-3P-Bed" secondAttribute="trailing" constant="16" id="MC2-bf-CWS"/>
+                                            <constraint firstItem="Cty-3P-Bed" firstAttribute="centerY" secondItem="aAE-LW-zQH" secondAttribute="centerY" id="S2i-Qy-6CP"/>
+                                            <constraint firstItem="Cty-3P-Bed" firstAttribute="centerX" secondItem="aAE-LW-zQH" secondAttribute="centerX" id="X3F-hU-8eS"/>
+                                            <constraint firstItem="Cty-3P-Bed" firstAttribute="top" secondItem="aAE-LW-zQH" secondAttribute="top" id="fRL-e9-bjK"/>
+                                            <constraint firstAttribute="bottom" secondItem="Cty-3P-Bed" secondAttribute="bottom" id="hAV-Bj-SDA"/>
+                                            <constraint firstItem="Cty-3P-Bed" firstAttribute="leading" secondItem="aAE-LW-zQH" secondAttribute="leading" constant="16" id="iJa-Qs-OZ9"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vER-IC-OWN">
+                                        <rect key="frame" x="0.0" y="150" width="500" height="150"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="20.333333333333314" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Don-Cf-7zi">
+                                                <rect key="frame" x="16" y="0.0" width="468" height="150"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Don-Cf-7zi" firstAttribute="centerX" secondItem="vER-IC-OWN" secondAttribute="centerX" id="2Yz-cq-78q"/>
+                                            <constraint firstAttribute="bottom" secondItem="Don-Cf-7zi" secondAttribute="bottom" id="AQC-oG-plv"/>
+                                            <constraint firstItem="Don-Cf-7zi" firstAttribute="leading" secondItem="vER-IC-OWN" secondAttribute="leading" constant="16" id="Aku-GR-obT"/>
+                                            <constraint firstAttribute="trailing" secondItem="Don-Cf-7zi" secondAttribute="trailing" constant="16" id="RrC-8C-ytg"/>
+                                            <constraint firstItem="Don-Cf-7zi" firstAttribute="centerY" secondItem="vER-IC-OWN" secondAttribute="centerY" id="Ycu-X5-Asv"/>
+                                            <constraint firstItem="Don-Cf-7zi" firstAttribute="top" secondItem="vER-IC-OWN" secondAttribute="top" id="tYX-x6-t1j"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3jk-gy-5yx" secondAttribute="bottom" id="C6t-hW-Vj7"/>
+                <constraint firstAttribute="trailing" secondItem="3jk-gy-5yx" secondAttribute="trailing" id="WnM-g3-p7C"/>
+                <constraint firstItem="3jk-gy-5yx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vOC-Of-dTy"/>
+                <constraint firstItem="3jk-gy-5yx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zH3-0U-IUM"/>
+            </constraints>
+            <connections>
+                <outlet property="mainStackView" destination="3jk-gy-5yx" id="r13-Hf-e59"/>
+                <outlet property="originalInfoLabel" destination="Don-Cf-7zi" id="wlk-Ju-0rt"/>
+                <outlet property="titleLabel" destination="Cty-3P-Bed" id="ogc-CU-faS"/>
+                <outlet property="titleStackView" destination="MPr-Uc-UVB" id="Xa5-ME-5kN"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="20"/>
+        </collectionViewCell>
+    </objects>
+</document>
