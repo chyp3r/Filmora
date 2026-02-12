@@ -85,7 +85,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 1. **Depoyu Klonlayın:**
 ```bash
-git clone https://github.com/kullanici-adi/Filmora.git
+git clone https://github.com/chyp3r/Filmora.git
 cd Filmora
 
 ```
